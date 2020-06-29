@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="locatedimg" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\VisualStudioRepos\\blob\\blob\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="blob.Data.ApplicationDbContext" description="" value="Server=tcp:yachmanservicedbserver.database.windows.net,1433;Initial Catalog=locatedimgdb;Persist Security Info=False;User ID=jarema5050;Password=G-hbnpl1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\VisualStudioRepos\\blob\\blob\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\blob\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

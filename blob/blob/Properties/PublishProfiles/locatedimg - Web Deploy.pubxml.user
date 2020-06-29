@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu internetowego. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Pn4o72XAUO/PiTWk0GMNAAAAAACAAAAAAAQZgAAAAEAACAAAAC0x3RVsSDzUWQ3/SyPZGSlRAgHSf+jmZJkjDmE3btdaQAAAAAOgAAAAAIAACAAAADTu9NV1sMdNsQY/pYg5XdIYhWHqce4QPw7ZHj7u6Ltb4AAAAC2fsT5PEF1fhKyBJWBLowC2hXy1x9KWbwiAoCBLRmR33dFSM2Ie599tmYnszn9q8SljlZSAQnXbL0uqwg6fVE/8eaaRrqQBRphzaNCZ1VIcFULObKqf+FCimWq/QNkNckZYKebc00BUP7X0Wg/v5JWmqetocVUJxaCSujkAdBZlkAAAABfHSAxP9pN5yBIcGmDVYDCwEqgrglJLdfQ2N6dLG1GSfFhf95LRPCf/++Pp9I+lwTrLZID0HCpcj+ch8t1chp0</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:yachmanservicedbserver.database.windows.net,1433%3bInitial Catalog=locatedimgdb%3bPersist Security Info=False%3bUser ID=jarema5050%3bPassword=G-hbnpl1234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="blob.Data.ApplicationDbContext">
+      <Value>Server=tcp:yachmanservicedbserver.database.windows.net,1433%3bInitial Catalog=locatedimgdb%3bPersist Security Info=False%3bUser ID=jarema5050%3bPassword=G-hbnpl1234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
